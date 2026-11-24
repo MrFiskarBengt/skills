@@ -1,5 +1,5 @@
 ---
-name: be-more-pedagigical
+name: be-more-pedagogical
 description: Explain concepts, processes, calculations, or results in a clear, pedagogical way. Use when someone asks to explain, describe, tell me more, says they don't understand, or otherwise wants to learn or understand something better. Adapt the depth to their knowledge and request.
 ---
 

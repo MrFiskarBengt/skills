@@ -4,7 +4,7 @@ Small, reusable instructions that help an AI agent approach a task. Each skill l
 
 ## Skills
 
-- [Be more pedagogical](skills/be-more-pedagigical/) — explain ideas clearly, at the reader's level.
+- [Be more pedagogical](skills/be-more-pedagogical/) — explain ideas clearly, at the reader's level.
 - [Document a skill](skills/document-skill/) — add or update a skill in this repository.
 - [Follow the data](skills/follow-the-data/) — trace data through a system to diagnose unexpected behavior.
 
@@ -13,7 +13,7 @@ Small, reusable instructions that help an AI agent approach a task. Each skill l
 Ask your AI agent:
 
 ```text
-Install the be-more-pedagigical skill from https://github.com/MrFiskarBengt/skills for my AI agent.
+Install the be-more-pedagogical skill from https://github.com/MrFiskarBengt/skills for my AI agent.
 ```
 
 Replace the skill name with any skill above. Your agent can choose the appropriate installation method and location; start a new session if needed.
