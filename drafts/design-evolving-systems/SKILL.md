@@ -22,13 +22,13 @@ Follow the same case from trigger to outcome. Name each essential responsibility
 
 Try a second case where the boundary is uncertain. Split or combine responsibilities if doing so explains a real difference in behavior or ownership. Stop when you and the user can reason about the important choices. Stakeholder scenarios and logical decomposition are established starting points for these first two moves. [NASA Systems Engineering Handbook, §§4.1 and 4.3](https://www.nasa.gov/reference/4-0-system-design-processes/)
 
-## 3. Find a method that earns its place
+## 3. Find the design approach
 
-Turn the hardest uncertainty into a research question. Is the team unsure what people need, what a domain term means, what it is allowed to do, or whether anyone has tried a fundamentally different approach? Search for prior work on that question. Look in adjacent domains when the local literature takes an assumption for granted. Consult original method descriptions and accounts of comparable use. Explain which part transfers, where the analogy breaks down, and which claim is still a hypothesis. For legal constraints, establish the relevant jurisdiction and check the governing source.
+Ask together: *What do we already know about problems like this that could shape how we design the system?*
 
-Compare promising methods with the simplest credible way to proceed. Competing meanings might warrant a conversation with domain experts, domain-driven design, or an ontology, depending on who needs shared meaning and what they must do with it. An unsettled market calls for evidence from users. A novel concept that familiar solutions keep crowding out may warrant C–K exploration. A hard group decision might benefit from a design sprint. Combine methods when each resolves a distinct uncertainty. Identify who contributes knowledge, who can challenge it, and who decides. [Hatchuel and Weil on C–K theory](https://doi.org/10.1007/s00163-008-0043-4)
-
-For each selected method, decide with the user where it belongs. It can guide a single conversation, become a recurring design practice, or become a capability of the system itself. For example, try C–K in a workshop first. If later decisions depend on reopening branches when knowledge changes, consider keeping concepts, evidence, and their relationships editable. Work out whether a new observation should revise one branch or prompt a fresh pass. A shared record of the reason for one decision may be enough.
+1. **Recognize the underlying challenge.** Pick a case from the functional architecture and name the difficulty in the user's terms. For example, two teams classify the same request differently, and that changes who can act on it.
+2. **Draw on existing knowledge.** Look for theories, methods, or working systems that address that difficulty, including in other fields. Bring back the idea worth borrowing and an example of where it has been used. In the classification case, a shared glossary and a formal ontology are both candidates.
+3. **Judge what belongs in this design.** With the user, ask what each idea would change in the original case. A glossary might let the teams settle disagreements. An ontology might guide the designers, or the system might use it to interpret requests. Choose an approach, or combine several when each serves a distinct purpose. Be able to say why each belongs. Choose tools in the next step.
 
 ## 4. Choose technologies against those needs
 
