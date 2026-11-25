@@ -30,11 +30,11 @@ Ask together: *What do we already know about problems like this that could shape
 2. **Draw on existing knowledge.** Look for theories, methods, or working systems that address that difficulty, including in other fields. Bring back the idea worth borrowing and an example of where it has been used. In the classification case, a shared glossary and a formal ontology are both candidates.
 3. **Judge what belongs in this design.** With the user, ask what each idea would change in the original case. A glossary might let the teams settle disagreements. An ontology might guide the designers, or the system might use it to interpret requests. Choose an approach, or combine several when each serves a distinct purpose. Be able to say why each belongs. Choose tools in the next step.
 
-## 4. Choose technologies against those needs
+## 4. Choose technology to fit the approach
 
-Translate the chosen approach into a capability someone will actually use. “When evidence changes, find the decisions that depend on it” gives you grounds to compare linked notes, a table, and a knowledge graph. Ask what each would let the team do on a real case, who would maintain it, and how hard it would be to change course. A graph database, an ontology language, and a dashboard serve different purposes. Select each only when its contribution is clear. If the team needs to derive several realizations from one stable model, consider [OMG’s Model Driven Architecture](https://www.omg.org/mda/).
+Before naming tools, ask what someone needs to be able to do in a concrete case and which constraints matter. Use those answers to find plausible options. Include what the team already uses when it could meet the need.
 
-Check current documentation for decisive capabilities and look for maintained deployments in comparable settings before claiming maturity. Explain the strongest reason for a choice and what evidence would reverse it. Defer the choice when the distinction has no consequence yet.
+Compare the options on that same case. Check the capabilities that would decide the choice against current documentation or evidence from comparable use. Explain the tradeoff that matters to the user and what would make you reconsider. Leave the choice open if it can wait.
 
 ## 5. Enter implementation when it helps decide or build
 
