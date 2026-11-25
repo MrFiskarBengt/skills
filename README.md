@@ -8,6 +8,15 @@ Small, reusable instructions that help an AI agent approach a task. Each skill l
 - [Document a skill](skills/document-skill/) — add or update a skill in this repository.
 - [Follow the data](skills/follow-the-data/) — trace data through a system to diagnose unexpected behavior.
 
+## Drafts
+
+> [!IMPORTANT]
+> **DRAFT · BETA SKILLS** — These skills are available to try while their instructions and behavior are still being refined.
+
+- [Design evolving systems](drafts/design-evolving-systems/) — design a system and the process people and agents will use to build and evolve it.
+
+To try a draft, ask your agent to install it from its linked folder on the `master` branch. Maintainers can add future drafts under `drafts/<skill-name>/SKILL.md` and list them here.
+
 ## Install
 
 Ask your AI agent:
