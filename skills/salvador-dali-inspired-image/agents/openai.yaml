@@ -1,0 +1,4 @@
+interface:
+  display_name: "Salvador Dali inspired image"
+  short_description: "Make spare, dreamlike surrealist images"
+  default_prompt: "Create an image in my preferred Salvador Dali inspired surrealist style. Use the subject and purpose I provide, and keep the composition spare, smooth, precise, dreamlike, and quietly uncanny."

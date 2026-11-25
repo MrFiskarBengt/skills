@@ -5,7 +5,7 @@ Small, reusable instructions that help an AI agent approach a task. Each skill l
 ## Skills
 
 - [Be more pedagogical](skills/be-more-pedagogical/) — explain ideas clearly, at the reader's level.
-- [Document a skill](skills/document-skill/) — add or update a skill in this repository.
+- [Salvador Dali inspired image](skills/salvador-dali-inspired-image/) — create refined editorial images with spacious compositions and dreamlike surrealism.
 - [Follow the data](skills/follow-the-data/) — trace data through a system to diagnose unexpected behavior.
 - [Teach yourself](skills/teach-yourself/) — use explanation to uncover gaps while working independently.
 - [Teach yourself: guided](skills/teach-yourself-guided/) — work through reasoning one step at a time with the user.
@@ -19,6 +19,12 @@ Small, reusable instructions that help an AI agent approach a task. Each skill l
 
 To try a draft, ask your agent to install it from its linked folder on the `master` branch. Maintainers can add future drafts under `drafts/<skill-name>/SKILL.md` and list them here.
 
+## Personal
+
+Personal skills live under `personal/` and are kept separate from the installable skills. They are not included by `npx skills add`.
+
+- [Document a skill](personal/document-skill/) — add or update a skill in this repository.
+
 ## Install
 
 Ask your AI agent:
@@ -27,7 +33,7 @@ Ask your AI agent:
 Install the be-more-pedagogical skill from https://github.com/MrFiskarBengt/skills for my AI agent.
 ```
 
-Replace the skill name with any skill above. Your agent can choose the appropriate installation method and location; start a new session if needed.
+Replace the skill name with any installable skill listed under Skills. Your agent can choose the appropriate installation method and location; start a new session if needed.
 
 Alternatively, use [skills.sh](https://skills.sh/) to choose skills and agents:
 
@@ -39,7 +45,7 @@ npx skills@latest add MrFiskarBengt/skills
 
 ## Add a skill (for maintainers)
 
-Create `skills/<skill-name>/SKILL.md` with a name, description, and instructions. Add supporting files only when needed, and link the skill in the list above. The [document a skill](skills/document-skill/SKILL.md) skill guides this process.
+Create `skills/<skill-name>/SKILL.md` with a name, description, and instructions. Add supporting files only when needed, and link the skill in the list above. The [document a skill](personal/document-skill/SKILL.md) skill guides this process.
 
 ## License
 
